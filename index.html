@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website with Drag and Drop Image</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="light-gradient-bg">
+  <div class="center">
+    <div class="gallery-container">
+      <div class="input-container">
+        <div id="textBox" class="text-box" contenteditable="true"></div>
+        
+        <input class="send-button" type="submit" value="Send" onclick="sendMessage()">
+        <button id="voiceButton" class="send-button" onclick="toggleSpeechRecognition()">Voice to Text</button>
+        <button id="textToVoiceButton" class="send-button" onclick="speakText()">Text to Voice</button>
+        
+        <select id="voiceSelect" class="send-button" onchange="changeVoice()">
+          <option value="default">Select Voice</option>
+        </select>
+       
+        <button id="cameraButton" class="send-button" onclick="toggleCamera()">Camera</button>
+        
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
