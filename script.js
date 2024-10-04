@@ -118,34 +118,10 @@ takePhotoButton.addEventListener("click", capturePhoto);
 
 // Store the reference to the clicked image
 
-  // Rest of the code remains the same...
 });
 
 
 
-
-// Rest of the code remains the same...
-
-// Rest of the code remains the same...
-
-// Rest of the code remains the same...
-
-
-// Rest of the code remains the same...
-
-
-
-// Rest of the code remains the same...
-
-
-// Rest of the code remains the same...
-
-
-// Rest of the code remains the same...
-
-
-
-// Rest of the code remains the same...
 
 
 
@@ -172,16 +148,7 @@ function speakText() {
   window.speechSynthesis.speak(utterance);
 }
 
-// Rest of the code remains the same...
 
-
-// Rest of the code remains the same...
-
-
-// Rest of the code remains the same...
-
-
-// Rest of the code remains the same...
 
 
 function populateVoices() {
@@ -431,7 +398,6 @@ function capturePhoto() {
 
 
 
-// ... Rest of the code ...
 
 document.querySelector(".text-box").addEventListener("dblclick", function(event) {
   var target = event.target;
@@ -447,5 +413,3 @@ function toggleCamera() {
     stopCamera();
   }
 }
-
-// Rest of the code remains the same...
